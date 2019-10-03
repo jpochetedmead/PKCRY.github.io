@@ -1,4 +1,79 @@
+* {
+    background-color: #5497A7;
+    box-sizing: content-box;
+}
 
-p {
-  color: red;
+
+.index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    padding-top: 200px;
+    color: #FFE66D;
+}
+.name {
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F363D;
+    align-self: center;
+    /*height: 100px;
+    width: 400px;*/
+}
+
+.intro {
+    color: #FFE66D;
+    font-size: 30px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.intro:hover .anch {
+    border-radius: 20px;
+    text-align: center;
+    line-height: 65px;
+    height: 70px;
+    width: 100px;
+    background-color: #FFE66D;
+    border: solid 5px #5497A7;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    
+
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.anch{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    height: 70px;
+    width: 100px;
+    background-color: #FFE66D;
+    border: solid 5px #5497A7;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
+}
+.project {
+    /*height: 70px;
+    width: 100px;
+    background-color: #FFE66D;
+    border: solid 5px #5497A7;
+    position: absolute;
+    position: right;
+    text-align: center;*/
 }
