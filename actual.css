@@ -1,8 +1,12 @@
 * {
-    background-color: #5497A7;
+    
     box-sizing: content-box;
 }
-
+.image {
+    
+    /*background-image: url(_NAC5608.jpg);
+    background-size: 100%;*/
+}
 
 .index {
     display: flex;
@@ -12,16 +16,18 @@
     width: auto;
     height: auto;
     padding-top: 200px;
+    padding-bottom: 100px;
     color: #FFE66D;
 }
 .name {
+    display: flex;
     font-size: 50px;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    background-color: #1F363D;
-    align-self: center;
-    /*height: 100px;
-    width: 400px;*/
+    background-color: rgb(10, 97, 121);
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .intro {
@@ -31,7 +37,7 @@
     align-self: center;
 }
 
-.intro:hover .anch {
+/*.intro:hover .anch {
     border-radius: 20px;
     text-align: center;
     line-height: 65px;
@@ -42,9 +48,8 @@
     align-items: center;
     justify-content: space-around;
     display: none;
+}*/
     
-
-}
 .links {
     display: flex;
     flex-direction: row;
@@ -58,8 +63,8 @@
     justify-content: center;
     border-radius: 20px;
     text-align: center;
-    height: 70px;
-    width: 100px;
+    height: 140px;
+    width: 200px;
     background-color: #FFE66D;
     border: solid 5px #5497A7;
     align-items: center;
@@ -69,11 +74,24 @@
     
 }
 .project {
-    /*height: 70px;
-    width: 100px;
-    background-color: #FFE66D;
-    border: solid 5px #5497A7;
-    position: absolute;
-    position: right;
-    text-align: center;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    padding-top: 20%;
+
+}
+
+.coding {
+    align-content: center;
+    padding: 20px;
+    width: 45%;
+}
+
+.git {
+    align-content: center;
+    padding: 20px;
+
+    width: 45%;
 }
