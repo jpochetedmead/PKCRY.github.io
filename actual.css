@@ -1,5 +1,6 @@
 * {
     
+    background-color: #5497A7;
     box-sizing: content-box;
 }
 .image {
@@ -73,25 +74,51 @@
     
     
 }
+/* For the projects.html */
 .project {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
     padding: 20px;
-    padding-top: 20%;
+    padding-top: 10%;
+    border: 1px solid black;
 
 }
 
 .coding {
+    border: 1px solid orange;
     align-content: center;
-    padding: 20px;
+    padding: 5%;
     width: 45%;
 }
 
 .git {
+    border: 1px solid greenyellow;
     align-content: center;
-    padding: 20px;
+    padding: 5%;
 
     width: 45%;
+}
+
+.github-projects {
+    border: 1px solid blue;
+    align-content: center;
+    padding: 5%;
+    width: 45%;
+}
+
+.html-logo {
+    padding-top: 20px;
+    width: 70%;
+}
+
+.git-logo {
+    padding-top: 20px;
+    width: 70%;
+}
+
+
+
+.github-image {
+    width: 80%;
 }
