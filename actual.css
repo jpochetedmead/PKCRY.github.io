@@ -16,16 +16,15 @@
     align-content: center;
     width: auto;
     height: auto;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
     color: #FFE66D;
 }
 .name {
     display: flex;
-    font-size: 50px;
+    font-size: 60px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: rgb(10, 97, 121);
     padding-bottom: 100px;
     padding-top: 100px;
@@ -38,18 +37,6 @@
     align-self: center;
 }
 
-/*.intro:hover .anch {
-    border-radius: 20px;
-    text-align: center;
-    line-height: 65px;
-    height: 70px;
-    width: 100px;
-    background-color: #FFE66D;
-    border: solid 5px #5497A7;
-    align-items: center;
-    justify-content: space-around;
-    display: none;
-}*/
     
 .links {
     display: flex;
@@ -60,65 +47,62 @@
 }
 
 .anch{
+    color: inherit;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     text-align: center;
-    height: 140px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     background-color: #FFE66D;
     border: solid 5px #5497A7;
     align-items: center;
     justify-content: space-around;
-    
+    font-size: 30px
     
     
 }
 /* For the projects.html */
-.project {
+ .project {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding: 20px;
     padding-top: 10%;
-    border: 1px solid black;
+    border: 1px solid #5497A7; 
+    
 
 }
 
-.coding {
-    border: 1px solid orange;
+.coding , .git, .github-projects {
+    background: #FFE66D;
+    border: 10px solid #5497A7;
     align-content: center;
     padding: 5%;
-    width: 45%;
-}
-
-.git {
-    border: 1px solid greenyellow;
-    align-content: center;
-    padding: 5%;
-
-    width: 45%;
-}
-
-.github-projects {
-    border: 1px solid blue;
-    align-content: center;
-    padding: 5%;
-    width: 45%;
-}
-
-.html-logo {
-    padding-top: 20px;
-    width: 70%;
-}
-
-.git-logo {
-    padding-top: 20px;
-    width: 70%;
+    width: 30%;
+    border-radius: 20px;
 }
 
 
+.logos {
+    background: #FFE66D;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 20px;
+   padding: 20px;
+   border: 10px solid #5497A7;
+}
 
-.github-image {
-    width: 80%;
+.github-image, .html-logo, .git-logo {
+    display: flex;
+    align-items: center;
+    background: #FFE66D;
+    height: 20%;
+    width: 20%;
+}
+
+.proj-p, .proj-h {
+    background: #FFE66D;
 }
