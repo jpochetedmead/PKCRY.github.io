@@ -278,14 +278,13 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     justify-content: space-around;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: white;
+    background-color: #f2f3f3;
 
 }
 
 .individual-contact{
-    color: white;
-    z-index: 0;
-    filter: brightness(1);
+    color: #f2f3f3;
+    
 
 }
 
