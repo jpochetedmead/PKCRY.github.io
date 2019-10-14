@@ -21,23 +21,32 @@ h1{
 
 /*Nav Bar*/
 nav{
+text-decoration: none;
 display: flex;
-background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
+background: #f2f3f3;
+position: sticky;
+top: 0px;
+margin: 0px;
 }
 
 .nav-list{
     display: flex;
     flex-direction: row;
-    width: 30%;
-    justify-content: space-around;
-    background-color: #f3a953;
-    background: linear-gradient(110deg, #f2f3f3 7.2%, #f3a953 5%);
+    width: 40%;
+    justify-content: space-between;
+    background-color: #f2f3f3;
+    background: #f3a953;
     list-style: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0px;
     }
 
 .nav-parts{
     background-color: #f3a953;
     padding: 20px;
+    text-decoration: none;
+    color: black;
     
 }
 
@@ -79,6 +88,8 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     font-size: 50px;
     text-decoration: none;
     align-self: center;
+    background: none;
+    color: white;
 }
 
     
@@ -205,6 +216,7 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     margin-top: 0px;
     padding: 30px;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .individual-pics, .individual-pics-1 {
@@ -212,7 +224,13 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
-    border: 10px solid #366ed8;
+    
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 
@@ -229,9 +247,7 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     width: 50%;
 
 }
-.photography{
-    
-}
+
 
 /* For the projects.html */
  .project {
@@ -314,3 +330,9 @@ background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 900px){
+
+    .phoenix-pic{
+        width: 300px;
+    }
+}
