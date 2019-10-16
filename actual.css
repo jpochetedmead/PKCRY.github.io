@@ -1,18 +1,17 @@
 * {
-    
     font-family: 'Nanum Gothic', sans-serif, arial;
     box-sizing: content-box;
 }
 
-body{ 
+body { 
     background: #366ed8;
 }
 
-img{
+img {
     width: 100px;
 }
 
-h1{
+h1 {
     padding-left: 20px;
     font-size: 60px;
     background: linear-gradient(110deg, #f2f3f3 70%, #f3a953 40%);
@@ -20,7 +19,8 @@ h1{
 
 
 /*Nav Bar*/
-nav{
+
+nav {
 text-decoration: none;
 display: flex;
 background: #f2f3f3;
@@ -29,7 +29,7 @@ top: 0px;
 margin: 0px;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     flex-direction: row;
     width: 40%;
@@ -40,17 +40,16 @@ margin: 0px;
     text-decoration: none;
     color: inherit;
     margin: 0px;
-    }
+}
 
-.nav-parts{
+.nav-parts {
     background-color: #f3a953;
     padding: 20px;
     text-decoration: none;
-    color: black;
-    
+    color: black;   
 }
 
-.nav-parts:hover{
+.nav-parts:hover {
     background-color: #f2f3f3;
 }
 
@@ -59,6 +58,7 @@ margin: 0px;
     background-color: #f2f3f3;
     margin-left: 20px;
 }
+
 /*first page (need to edit)*/
 
 .index {
@@ -69,9 +69,9 @@ margin: 0px;
     width: auto;
     height: auto;
     padding-top: 50px;
-    padding-bottom: 100px;
-     
+    padding-bottom: 100px;     
 }
+
 .name {
     display: flex;
     font-size: 60px;
@@ -84,7 +84,6 @@ margin: 0px;
 }
 
 .intro {
-    
     font-size: 50px;
     text-decoration: none;
     align-self: center;
@@ -92,9 +91,7 @@ margin: 0px;
     color: white;
 }
 
-    
 .links {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -102,7 +99,7 @@ margin: 0px;
     padding-bottom: 200px;
 }
 
-.anch{
+.anch {
     background: linear-gradient(110deg, #f2f3f3 75%, #f3a953 40%);
     color: inherit;
     text-decoration: none;
@@ -116,38 +113,35 @@ margin: 0px;
     align-items: center;
     justify-content: space-around;
     font-size: 30px
-    
-    
 }
 
 
 /*for the about me section*/
-.about-intro{
+
+.about-intro {
     display: flex;
 }
 
-
-.main-pic{
-    
+.main-pic {
     width: 50%;
 }
 
-.about-text-all{
+.about-text-all {
     width: 50%;
     margin: 0px;
 }
 
-.me{
+.me {
     width: 95%;
     border-radius: 6px;
 }
 
-.about-header{
+.about-header {
     display: flex;
     justify-content: space-between;
 }
 
-.about-text, .about-name{
+.about-text, .about-name {
     background: linear-gradient(110deg, #f2f3f3 90%, #f3a953 40%);
     font-size: 30px;
     padding: 30px;
@@ -159,56 +153,56 @@ margin: 0px;
 
 /* start of SMASH section*/
 
-.smashbros-all{
+.smashbros-all {
     display: flex;
 }
 
-.regular-smash{
+.regular-smash {
     display: flex;
     padding-bottom: 100px;
 }
 
-.smash-main-text{
+.smash-main-text {
     width: 50%;
 }
 
-.smashbros-pic{
+.smashbros-pic {
     padding-left: 50px;
     width: 50%;
     border-radius: 6px;
-
 }
 
-.phoenix-smash{
+.phoenix-smash {
     display: flex;
 }
 
-.phoenix-text{
+.phoenix-text {
     width: 50%;
 }
 
-.phoenix-pic{
+.phoenix-pic {
     width: 50%;
     border-radius: 6px;
-    
     padding-right: 50px;
 }
 
-.smash-text{
+.smash-text {
     background: linear-gradient(110deg, #f2f3f3 90%, #f3a953 40%);
     font-size: 30px;
     margin-top: 0px;
     padding: 30px;
     border-radius: 6px;
 }
-.smashgg{
+
+.smashgg {
     background: #f2f3f3;
     text-decoration: none;
 }
 
 
 /*start of photography Section*/
-.photo-text{
+
+.photo-text {
     display: flex;
     justify-content: center;
     background: linear-gradient(110deg, #f2f3f3 90%, #f3a953 40%);
@@ -223,41 +217,34 @@ margin: 0px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: space-between;
-    
+    align-items: space-between; 
 }
 
-.insta{
+.insta {
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
 
-
-
-.photo-pics{
+.photo-pics {
     display: flex;
 }
 
-.first-set{
+.first-set {
     width: 50%;
 }
 
-.second-set{
+.second-set {
     width: 50%;
-
 }
-
 
 /* For the projects.html */
+
  .project {
-    
     display: flex;
     flex-direction: row;
     padding: 20px;
     padding-bottom: 100px;
-    
-
 }
 
 .coding , .git, .github-projects {
@@ -267,10 +254,7 @@ margin: 0px;
     padding: 5%;
     width: 25%;
     border-radius: 10px;
-
-
 }
-
 
 .logos {
     background: #f2f3f3;
@@ -279,7 +263,6 @@ margin: 0px;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-   
 }
 
 .github-image, .html-logo, .git-logo {
@@ -301,25 +284,21 @@ margin: 0px;
 
 /*start of contact page*/
 
-.contact-links{
+.contact-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #f2f3f3;
-
 }
 
-.individual-contact, .instagram{
+.individual-contact, .instagram {
     background-color: #f2f3f3;
     color: #f2f3f3;
-    
 }
 
-
-
-.contact-text{
+.contact-text {
     display: flex;
     font-size: 30px;
     background: linear-gradient(110deg, #f2f3f3 85%, #f3a953 40%);
@@ -331,8 +310,7 @@ margin: 0px;
 }
 
 @media only screen and (max-width: 900px){
-
-    .phoenix-pic{
+    .phoenix-pic {
         width: 300px;
     }
 }
